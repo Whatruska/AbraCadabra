@@ -4,8 +4,7 @@ public class Arrays {
     public static final char[] glas = new char[]
             {'e','y','u','i','o','a'};
     public static void main(String[] args) {
-        //Надо заполнить
-        String[] arr = new String[]{""};
+        String[] arr = new String[]{"itiskfu", "aabcde", "aabcde"};
 
         boolean isExists = false;
         for (int i = 0; i < arr.length - 1; i++){
@@ -30,7 +29,7 @@ public class Arrays {
                 char ch1 = string1.charAt(i);
                 char ch2 = string2.charAt(i);
                 if (isLetter(ch1) && isLetter(ch2)){
-                    if (!(isGlas(ch1) && isGlas(ch2)) || !(isSogl(ch1) && isSogl(ch2))){
+                    if ((isGlas(ch1) && isSogl(ch2)) || (isSogl(ch1) && isGlas(ch2))){
                         return false;
                     }
                 }
