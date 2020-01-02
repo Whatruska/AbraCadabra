@@ -2,7 +2,7 @@ package Ticket_2;
 
 public class Arrays {
     public static void main(String[] args) {
-        String[] strings = new String[];
+        String[] strings = new String[]{};
         for (int i = 0; i < strings.length - 1; i++){
             String str1 = strings[i];
             String str2 = strings[i + 1];
