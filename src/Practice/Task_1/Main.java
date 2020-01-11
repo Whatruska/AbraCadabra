@@ -25,25 +25,13 @@ public class Main {
         }
 
         boolean flag = true;
-        main: for (int i = 0; i < n - 1; i++){
-            int[] number = formArrFromInt(numbers[i]);
-            for (int j = 0; j < m; j++){
-                int[] row = digits[j];
-                if (isContain(number, row)){
-                    int[] number2 = formArrFromInt(numbers[i + 1]);
-                    for (int l = 0; l < k; l++) {
-                        int[] vertical = formVertical(digits,k);
-                        if (!isContain(number2, vertical)){
-                            flag = false;
-                            break main;
-                        }
-                    }
-                } else {
-                    flag = false;
-                    break main;
-                }
+        for (int i = 0; i < numbers.length - 1; i++){
+            if (!checkPair(i,numbers,digits)){
+                flag = false;
+                break;
             }
         }
+
         if (flag){
             System.out.println("Все пары удовлетворяют условию");
         } else {
@@ -51,12 +39,29 @@ public class Main {
         }
     }
 
+    public static boolean checkPair(int ind, int[] numbers, int[][] matrix){
+        int[] number = formArrFromInt(numbers[ind]);
+        int[] number2 = formArrFromInt(numbers[ind + 1]);
+
+        for (int i = 0; i < matrix.length; i++){
+            if (isContain(number, matrix[i])){
+                for (int j = 0; j < matrix[0].length; j++){
+                    int[] vertical = formVertical(matrix, j);
+                    if (isContain(number2, vertical)){
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
     public static int[] formArrFromInt(int i){
         int length = getLengthOfInt(i);
         int[] result = new int[length];
         for (int j = 0; j < length; j++){
             int digit = i % 10;
-            result[i] = digit;
+            result[length - j - 1] = digit;
             i /= 10;
         }
         return result;
@@ -72,12 +77,27 @@ public class Main {
     }
 
     public static boolean isContain(int[] arr, int[] row){
-        for (int i = 0; i < arr.length; i++){
-            if (arr[i] != row[i]){
-                return false;
+        int index = indexOf(row, arr[0]);
+        while (index != Integer.MAX_VALUE){
+            for (int i = index; i < arr.length; i++){
+                if (arr[i] != row[i]){
+                    return false;
+                }
             }
+            index = indexOf(row, arr[0]);
         }
         return true;
+    }
+
+    public static int indexOf(int[] row, int elem){
+        int index = Integer.MAX_VALUE;
+        for (int i = 0; i < row.length; i++){
+            if (row[i] == index){
+                index = row[i];
+                break;
+            }
+        }
+        return index;
     }
 
     public static int[] formVertical(int[][] matrix, int vertIndex){
