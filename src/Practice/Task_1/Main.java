@@ -5,19 +5,19 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите размерность массива numbers : ");
+        //System.out.print("Введите размерность массива numbers : ");
         int n = scanner.nextInt();
         int[] numbers = new int[n];
-        System.out.println("Введите numbers");
+        //System.out.println("Введите numbers");
         for (int i = 0; i < n; i++){
             numbers[i] = scanner.nextInt();
         }
 
-        System.out.print("Введите размерность матрицы digits : ");
+        //System.out.print("Введите размерность матрицы digits : ");
         int m = scanner.nextInt();
         int k = scanner.nextInt();
         int[][] digits = new int[m][k];
-        System.out.println("Введите digits");
+        //System.out.println("Введите digits");
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < k; j++) {
                 digits[i][j] = scanner.nextInt();
@@ -78,13 +78,14 @@ public class Main {
 
     public static boolean isContain(int[] arr, int[] row){
         int index = indexOf(row, arr[0]);
-        while (index != Integer.MAX_VALUE){
+        if (index != Integer.MAX_VALUE){
             for (int i = index; i < arr.length; i++){
                 if (arr[i] != row[i]){
                     return false;
                 }
             }
-            index = indexOf(row, arr[0]);
+        } else {
+            return false;
         }
         return true;
     }
@@ -92,7 +93,7 @@ public class Main {
     public static int indexOf(int[] row, int elem){
         int index = Integer.MAX_VALUE;
         for (int i = 0; i < row.length; i++){
-            if (row[i] == index){
+            if (row[i] == elem){
                 index = row[i];
                 break;
             }
