@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b96900a5-dd0b-4a09-a18b-1094b315430f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ticket_2/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/Task_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/Task_2/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/Task_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Regex/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ticket_3/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ticket_3/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,23 +23,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Ticket_2/Circle.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Practice/Task_2/Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+            <state relative-caret-position="106">
+              <caret line="92" column="61" selection-start-line="92" selection-start-column="61" selection-end-line="92" selection-end-column="61" />
               <folding>
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#95#96#0" expanded="true" />
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Practice/Task_2/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -60,6 +71,15 @@
         <option value="$PROJECT_DIR$/src/Ticket_2/Arrays.java" />
         <option value="$PROJECT_DIR$/src/Ticket_1/Arrays.java" />
         <option value="$PROJECT_DIR$/src/Ticket_2/Circle.java" />
+        <option value="$PROJECT_DIR$/src/Test/Main.java" />
+        <option value="$PROJECT_DIR$/src/Ticket_3/Animal.java" />
+        <option value="$PROJECT_DIR$/src/Ticket_3/Cat.java" />
+        <option value="$PROJECT_DIR$/src/Regex/Main.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Practice/Task_1/Array.java" />
+        <option value="$PROJECT_DIR$/src/Practice/Task_1/Main.java" />
+        <option value="$PROJECT_DIR$/src/Practice/Task_2/Array.java" />
+        <option value="$PROJECT_DIR$/src/Practice/Task_2/Main.java" />
       </list>
     </option>
   </component>
@@ -74,8 +94,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,10 +106,25 @@
               <item name="AbraCadabra" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AbraCadabra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AbraCadabra" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AbraCadabra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AbraCadabra" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Task_2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -119,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Arrays (1)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Arrays (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ticket_1.Arrays" />
       <module name="AbraCadabra" />
@@ -133,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ticket_2.Arrays" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Main" />
       <module name="AbraCadabra" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ticket_2.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +179,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTask (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ticket_2.FirstTask" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="AbraCadabra" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.Task_2.Main" />
       <module name="AbraCadabra" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ticket_2.*" />
+          <option name="PATTERN" value="Practice.Task_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ticket_1.FirstTask" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Regex.Main" />
       <module name="AbraCadabra" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ticket_1.*" />
+          <option name="PATTERN" value="Regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,10 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Arrays (1)" />
-        <item itemvalue="Application.Arrays" />
-        <item itemvalue="Application.FirstTask (1)" />
-        <item itemvalue="Application.FirstTask" />
       </list>
     </recent_temporary>
   </component>
@@ -192,31 +233,34 @@
       <option name="presentableId" value="Default" />
       <updated>1577987753833</updated>
       <workItem from="1577987755205" duration="5763000" />
-      <workItem from="1578127824562" duration="1676000" />
+      <workItem from="1578127824562" duration="1828000" />
+      <workItem from="1578495710915" duration="4378000" />
+      <workItem from="1578756986134" duration="6690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7439000" />
+    <option name="totallyTimeSpent" value="18659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1410" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25365496" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2609649" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -258,6 +302,12 @@
           <line>28</line>
           <properties />
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Practice/Task_2/Array.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -321,8 +371,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ticket_2/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+        <state relative-caret-position="209">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
           <folding>
             <element signature="e#254#255#0" expanded="true" />
             <element signature="e#283#284#0" expanded="true" />
@@ -330,11 +380,83 @@
             <element signature="e#332#333#0" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />
             <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ticket_3/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#105#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Regex/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ticket_3/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <element signature="e#75#76#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practice/Task_1/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practice/Task_1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practice/Task_2/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="92" column="61" selection-start-line="92" selection-start-column="61" selection-end-line="92" selection-end-column="61" />
+          <folding>
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practice/Task_2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
     </entry>
