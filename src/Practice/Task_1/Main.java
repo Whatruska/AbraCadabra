@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         //System.out.print("Введите размерность массива numbers : ");
         int n = scanner.nextInt();
@@ -49,6 +50,9 @@ public class Main {
                     int[] vertical = formVertical(matrix, j);
                     if (isContain(number2, vertical)){
                         return true;
+                    }
+                    if (j == matrix[0].length - 1){
+                        return false;
                     }
                 }
             }
